@@ -18,9 +18,7 @@ class FedExServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__ . '/../../config/fedex.php' => config_path('fedex.php')
-        ],'config');
+        $this->package('krsman/fedex-laravel4');
     }
 
     /**

@@ -9,7 +9,7 @@ You can install the package most easily through composer
 
 #### Laravel 4.x
 ```
-composer require arkitecht/fedex-laravel
+composer require krsman/fedex-laravel4
 ```
 
 Using it in your project

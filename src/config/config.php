@@ -14,9 +14,9 @@ return [
     |
     */
 
-    'key'      => env('FEDEX_API_KEY', ''),
-    'password' => env('FEDEX_API_PASSWORD', ''),
-    'account'  => env('FEDEX_ACCOUNT_NO', ''),
-    'meter'    => env('FEDEX_METER_NO', ''),
-    'beta'     => env('FEDEX_USE_BETA', false),
+    'key'      => '',
+    'password' => '',
+    'account'  => '',
+    'meter'    => '',
+    'beta'     => false,
 ];

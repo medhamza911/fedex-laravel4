@@ -1,5 +1,5 @@
 <?php
-namespace Arkitecht\FedEx\Laravel\Facades;
+namespace Krsman\FedEx\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

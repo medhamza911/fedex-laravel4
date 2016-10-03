@@ -5,7 +5,7 @@
  * Time: 8:09 PM
  */
 
-namespace Arkitecht\FedEx\Laravel;
+namespace Krsman\FedEx\Laravel;
 
 use Arkitecht\FedEx\Services\RateService;
 use Arkitecht\FedEx\Services\ShipService;

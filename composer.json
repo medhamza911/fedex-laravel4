@@ -1,6 +1,6 @@
 {
   "name": "krsman/fedex-laravel4",
-  "description": "A service provider to integrate FedEx servces into your Laravel Project",
+  "description": "A service provider to integrate FedEx services into your Laravel Project",
   "license": "MIT",
   "require": {
     "laravel/framework": "4.*",
@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Arkitecht\\FedEx\\Laravel\\": "src/"
+      "Krsman\\FedEx\\Laravel\\": "src/"
     }
   }
 }

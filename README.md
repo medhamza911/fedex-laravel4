@@ -28,7 +28,7 @@ Using it in your project
 		'Illuminate\Session\CommandsServiceProvider',
 
 ...
-		'Arkitecht\FedEx\Laravel\Providers\FedExServiceProvider',
+		'Krsman\FedEx\Laravel\Providers\FedExServiceProvider',
     ),
 ?>
 ```
@@ -41,7 +41,7 @@ Using it in your project
 ...
     'aliases' => array(
 
-        'FedEx'     => 'Arkitecht\FedEx\Laravel\Facades\FedEx'
+        'FedEx'     => 'Krsman\FedEx\Laravel\Facades\FedEx'
 
     ),
 ?>

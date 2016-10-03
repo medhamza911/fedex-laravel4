@@ -1,5 +1,5 @@
 <?php
-namespace Arkitecht\FedEx\Laravel\Providers;
+namespace Krsman\FedEx\Laravel\Providers;
 
 use Arkitecht\FedEx\Laravel\FedEx;
 use Illuminate\Support\ServiceProvider;

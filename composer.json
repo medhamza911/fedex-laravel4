@@ -1,5 +1,5 @@
 {
-  "name": "arkitecht/fedex-laravel",
+  "name": "krsman/fedex-laravel",
   "description": "A service provider to integrate FedEx servces into your Laravel Project",
   "license": "MIT",
   "require": {

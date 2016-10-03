@@ -1,6 +1,6 @@
 FedEx Laravel
 =================
-This is a fork of Arkitecht/fedex-laravel, package created to support older versions of the Laravel framework. A service provider to integrate FedEx services into your Laravel Project
+This is a fork of Arkitecht/fedex-laravel, package created to support older versions of Laravel framework. A service provider to integrate FedEx services into your Laravel Project
 
 
 Quick Installation

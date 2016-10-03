@@ -49,17 +49,17 @@ Using it in your project
 
 **Publish the config file**
 
-```artisan vendor:publish```
+```php artisan config:publish krsman/fedex-laravel4```
 
 **Set up your environment**
 
-Add values for the following setting keys in your .env or in config/fedex.php
+Add values for the following setting keys in your /app/config/packages/krsman/fedex-laravel4/config.php
 
-* FEDEX_API_KEY - Your FedEx API Key
-* FEDEX_API_PASSWORD - Your FedEx API Password
-* FEDEX_ACCOUNT_NO - Your FedEx Account Number
-* FEDEX_METER_NO - Your FedEx Meter Number
-* FEDEX_USE_BETA - (Bool) Use the FedEx beta/test system instead of production
+    'key'      => '',
+    'password' => '',
+    'account'  => '',
+    'meter'    => '',
+    'beta'     => false,
 
 Example of Usage
 ------------------

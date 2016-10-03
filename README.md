@@ -28,7 +28,7 @@ Using it in your project
 		'Illuminate\Session\CommandsServiceProvider',
 
 ...
-       		'Arkitecht\FedEx\Laravel\Providers\FedExServiceProvider',
+		'Arkitecht\FedEx\Laravel\Providers\FedExServiceProvider',
     ),
 ?>
 ```

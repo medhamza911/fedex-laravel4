@@ -1,13 +1,13 @@
 FedEx Laravel
 =================
-A service provider to integrate FedEx services into your Laravel Project
+This is a fork of Arkitecht/fedex-laravel, package create to support older versions of the Laravel framework. A service provider to integrate FedEx services into your Laravel Project
 
 
 Quick Installation
 ------------------
 You can install the package most easily through composer
 
-#### Laravel 5.x
+#### Laravel 4.x
 ```
 composer require arkitecht/fedex-laravel
 ```
@@ -20,19 +20,16 @@ Using it in your project
 <?php
 
 ...
-'providers' => [
+'providers' => array(
 
-        /*
-         * Laravel Framework Service Providers...
-         */
-        //Illuminate\Foundation\Providers\ArtisanServiceProvider::class,
-        Illuminate\Auth\AuthServiceProvider::class,
-        Illuminate\Broadcasting\BroadcastServiceProvider::class,
-        Illuminate\Bus\BusServiceProvider::class,
+		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
+		'Illuminate\Auth\AuthServiceProvider',
+		'Illuminate\Cache\CacheServiceProvider',
+		'Illuminate\Session\CommandsServiceProvider',
 
 ...
        Arkitecht\FedEx\Laravel\Providers\FedExServiceProvider::class,
-    ],
+    ),
 ?>
 ```
 
@@ -42,11 +39,11 @@ Using it in your project
 <?php
 
 ...
-    'aliases' => [
+    'aliases' => array(
 
         'FedEx'     => Arkitecht\FedEx\Laravel\Facades\FedEx::class
 
-    ],
+    ),
 ?>
 ```
 

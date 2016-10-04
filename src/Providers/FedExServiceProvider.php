@@ -1,7 +1,7 @@
 <?php
 namespace Krsman\FedEx\Laravel\Providers;
 
-use Arkitecht\FedEx\Laravel\FedEx;
+use Krsman\FedEx\Laravel\FedEx;
 use Illuminate\Support\ServiceProvider;
 
 class FedExServiceProvider extends ServiceProvider

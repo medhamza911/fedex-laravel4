@@ -1,4 +1,4 @@
-FedEx Laravel
+FedEx Laravel 4
 =================
 This is a fork of Arkitecht/fedex-laravel, package modified for backward compability to support Laravel 4.*.
 

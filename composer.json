@@ -1,11 +1,11 @@
 {
-  "name": "krsman/fedex-laravel4",
+  "name": "medhamza911/fedex-laravel4",
   "description": "A service provider to integrate FedEx services into your Laravel Project",
   "license": "MIT",
   "require": {
     "laravel/framework": "4.*",
-    "arkitecht/fedex-php": "dev-master",
-    "wsdltophp/packagebase": "dev-master"
+    "medhamza911/fedex-php": "dev-master",
+    "wsdltophp/packagebase": "2.2.3"
   },
   "autoload": {
     "psr-4": {
